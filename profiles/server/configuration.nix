@@ -2,7 +2,7 @@
 # your system.  Help is available in the configuration.nix(5) man page
 # and in the NixOS manual (accessible by running ‘nixos-help’).
 
-{ config, lib, pkgs, blocklist-hosts, username, name, hostname, timezone, locale, wm, theme, ... }:
+{ config, lib, pkgs, blocklist-hosts, username, name, hostname, password, timezone, locale, wm, theme, ... }:
 {
   imports =
     [ ../../system/hardware-configuration.nix
@@ -98,6 +98,7 @@
     isNormalUser = true;
     description = name;
     extraGroups = [ "networkmanager" "wheel" ];
+    initialPassword = password;
     packages = with pkgs; [];
     uid = 1000;
   };
