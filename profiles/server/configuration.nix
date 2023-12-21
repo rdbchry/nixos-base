@@ -12,7 +12,6 @@
       ../../system/hardware/bluetooth.nix
       (./. + "../../../system/wm"+("/"+wm)+".nix") # My window manager
       ../../system/app/flatpak.nix
-      ../../system/app/docker.nix
       ../../system/app/arr.nix
       ../../system/security/blocklist.nix
       ../../system/security/firewall.nix
