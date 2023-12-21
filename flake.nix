@@ -13,6 +13,7 @@
     # ----- USER SETTINGS ----- #
     username = "zeus"; # username
     name = "zeus"; # name/identifier
+    password = "inserthere"; # edit this password
     email = "redact@redact.com"; # email (used for certain configurations)
     dotfilesDir = "~/.dotfiles"; # absolute path of the local repo
     theme = "henna"; # selcted theme from my themes directory (./themes/)
