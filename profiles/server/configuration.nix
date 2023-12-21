@@ -44,7 +44,8 @@
       dates = "weekly";
       options = "--delete-older-than 14d";
     };
-  
+  };
+
   # Auto update 
   system = {
     autoUpgrade = {
