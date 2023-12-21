@@ -62,6 +62,7 @@
             inherit username;
             inherit name;
             inherit hostname;
+            inherit password;
             inherit profile;
             inherit email;
             inherit dotfilesDir;
@@ -97,6 +98,7 @@
           inherit username;
           inherit name;
           inherit hostname;
+          inherit password;
           inherit timezone;
           inherit locale;
           inherit theme;
